@@ -29,6 +29,7 @@ export interface Config {
 
   WEBHOOK: string
   REGEX_SERVER_PREFIX: string
+  REGEX_SERVER_LINE_GRP: number,
   REGEX_MATCH_CHAT_MC: string
   REGEX_IGNORED_CHAT: string
   DEBUG: boolean
